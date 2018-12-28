@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Nexity';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/Nexity_fonts/Nexity.eot'); /* IE9 Compat Modes */
+  src: local('Nexity'), local('Nexity'),
+       url('assets/Nexity_fonts/Nexity.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/Nexity_fonts/Nexity.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/Nexity_fonts/Nexity.woff') format('woff'), /* Modern Browsers */
+       url('assets/Nexity_fonts/Nexity.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('assets/Nexity_fonts/Nexity.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nexity', "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
