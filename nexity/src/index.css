@@ -18,9 +18,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}y
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+.navbar {
+  border-radius: unset;
+  background: #3B3B3B;
+  padding-bottom: 52px;
+  margin-bottom: 0;
+  border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-text {
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 0;
+    float: none;
+    font-size: 11px;
+    opacity: 0.6;
+}
+.navbar-inverse .navbar-text.big-text {
+    font-size: 17px;
+    margin-top: 4px;
+    opacity: 1;
+}
+.navbar-header {
+  width: 50%;
+}
+.navbar-inverse span.header-text {
+  display: block;
+  float: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-inverse span.header-text {
+    width: 65%;
+  }
+  .navbar-header {
+    width: auto;
+  }
+}
+
+
+.submenu {
+  width: 100%;
+  float: left;
+}
+.submenu .navbar {
+  padding-bottom: 0;
+  margin-top: -42px;
+  width: 90%;
+  background: #4A5F15;
+  min-height: auto;
+}
+.submenu .navbar-nav>li>a {
+  padding-top: 7px;
+  padding-bottom: 7px
+}
+
+.tooltip-arrow {
+  border: none;
+}
+.tooltip-inner {
+    background-color: transparent;
+    border: 1px solid #4A5F15;
+    color: #4A5F15;
 }
