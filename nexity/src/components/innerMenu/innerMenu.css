@@ -1,0 +1,21 @@
+.inner-menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inner-menu ul li {
+    border: 1px solid #BFBFBF;
+    margin-left: 0;
+    border-left: none;
+}
+.inner-menu ul li a {
+    color: #BFBFBF;
+    text-transform: uppercase;
+    padding: 0 10px;
+    border-radius: 0;
+}
+.inner-menu ul li.active a {
+    background-color: #789921;
+}
+.inner-menu ul li:first-child {
+    border-left: 1px solid #BFBFBF;
+}

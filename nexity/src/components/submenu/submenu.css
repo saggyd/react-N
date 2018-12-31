@@ -1,0 +1,28 @@
+.submenu {
+  width: 100%;
+  float: left;
+  /*osition: fixed;
+  top: 60px;
+  left: 0;
+  z-index: 100;*/
+}
+.submenu .navbar {
+  padding-bottom: 0;
+  width: 90%;
+  background: #4A5F15;
+  min-height: auto;
+  margin-top: 60px;
+}
+.submenu .navbar-nav>li>a {
+  padding-top: 7px;
+  padding-bottom: 7px
+}
+
+.tooltip-arrow {
+  border: none;
+}
+.tooltip-inner {
+    background-color: transparent;
+    border: 1px solid #4A5F15;
+    color: #4A5F15;
+}

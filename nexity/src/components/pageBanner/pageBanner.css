@@ -1,0 +1,28 @@
+.page-banner {
+    width: 100%;
+    padding: 25px 25px 10px;
+    background-color: #789921;
+    float: left;
+}
+.page-banner i.fa-user {
+    font-size: 30px;
+    color: #FFF;
+    display: block;
+    float: left;
+}
+.page-banner h3 {
+    color: #FFF;
+    float: left;
+    margin-top: 0;
+    padding-left: 15px;
+}
+.page-banner hr {
+    margin: 5px 0 20px;
+}
+.page-banner .p-label {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 15px;
+}
