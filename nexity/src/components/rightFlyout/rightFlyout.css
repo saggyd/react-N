@@ -45,6 +45,10 @@
     padding-right: 40px;
     text-align: right;
 }
+.flyout .collapsablePanel .menuItem li a {
+    color: #789921;
+    text-decoration: none;
+}
 .flyout .collapsablePanel .menuItem li img {
     width: 12px;
     height: 12px;

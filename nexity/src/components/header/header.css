@@ -45,4 +45,10 @@
   .navbar-header {
     width: auto;
   }
+  .navbar {
+    padding-bottom: 8px;
+  }
+  .nav>li {
+    display: inline-block;
+  }
 }

@@ -26,3 +26,24 @@
     border: 1px solid #4A5F15;
     color: #4A5F15;
 }
+
+@media only screen and (max-width: 992px) {
+  .submenu .nav>li {
+    position: relative;
+      display: inline-block;
+      padding: 0px;
+      margin-top: -2px;
+  }
+  .submenu .navbar-nav>li>a {
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+  .submenu .navbar {
+    width: 100%;
+    background: #4A5F15;
+    min-height: auto;
+    margin-top: 58px;
+    position: relative;
+    z-index: 0;
+  }
+}

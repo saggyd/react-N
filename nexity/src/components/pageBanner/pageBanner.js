@@ -15,7 +15,7 @@ const PageBanner = (props) => {
                         <h3>VANDAMME Jean-Claude</h3>
                     </Col>
                     <Col xs={12} md={6}>
-                        <code>{'<Col xs={6} md={4} />'}</code>
+                        <p className="desc">Candidature en ligne complète</p>
                     </Col>
                 </Row>
                 <hr />

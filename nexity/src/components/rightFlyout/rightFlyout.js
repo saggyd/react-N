@@ -30,11 +30,11 @@ class Flyout extends Component {
             <button onClick={()=>this.handleClick()}><img src={dot} alt="" /></button>
             <div className="collapsablePanel" style={ panelShow }>
                 <ul className="menuItem">
-                    <li>site<img src={dot} alt="" /></li>
-                    <li>contacts<img src={dot} alt="" /></li>
-                    <li>qualification<img src={dot} alt="" /></li>
-                    <li>BIENS RECHERCHES<img src={dot} alt="" /></li>
-                    <li>notes<img src={dot} alt="" /></li>
+                    <li><a href="#headline1" onClick={()=>this.handleClick()}>site</a><img src={dot} alt="" /></li>
+                    <li><a href="#headline2" onClick={()=>this.handleClick()}>contacts</a><img src={dot} alt="" /></li>
+                    <li><a href="#headline3" onClick={()=>this.handleClick()}>qualification</a><img src={dot} alt="" /></li>
+                    <li><a href="#headline4" onClick={()=>this.handleClick()}>BIENS RECHERCHES</a><img src={dot} alt="" /></li>
+                    <li><a href="#headline5" onClick={()=>this.handleClick()}>notes</a><img src={dot} alt="" /></li>
                 </ul>
             </div>
             <div className="background" style={ bgHeight } onClick={()=>this.handleClick()}></div>

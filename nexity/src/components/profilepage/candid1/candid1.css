@@ -1,0 +1,71 @@
+.accordion {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.accordion .action-button {
+    position: absolute;
+    right: 9px;
+    top: 51px;
+    width: auto;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 10px;
+    min-width: 100px;
+    text-align: center;
+    z-index: 15;
+}
+.accordion .action-button:hover {
+    opacity: 1;
+}
+.accordion a {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #E2F0D9;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #768D2D;
+    opacity: 0.6;
+    padding: 15px;
+    line-height: 20px;
+    border: 1px solid #789921;
+    cursor: pointer;
+}
+.accordion a img {
+    margin-right: 12px;
+    width: 20px;
+}
+.accordion button {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #E2F0D9;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #789921;
+    opacity: 0.6;
+}
+.accordion button img {
+    margin-right: 10px;
+}
+.accordion button:hover, .accordion button:active {
+    background-color: #E2F0D9;
+    color: #789921;
+}
+.accordion .panel {
+    margin-left: 41px;
+    border-radius: 0;
+    border: none;
+    margin-top: -70px;
+    padding-top: 47px;
+    margin-bottom: 0;
+}
+.form-group label {
+    color: #789921;
+    font-size: 12px;
+}
