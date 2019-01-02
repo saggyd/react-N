@@ -1,0 +1,53 @@
+.flyout button {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    background: none;
+    border: none
+}
+.flyout button img {
+    width: 15px;
+    height: 15px;
+}
+.flyout .collapsablePanel {
+    background-color: #CAE8AA;
+    padding: 15px 10px;
+    position: fixed;
+    right: -34px;
+    top:35%;
+    z-index: 102;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 54px 20px 17px 8px;
+    opacity: 0.88;
+}
+.flyout .background {
+    width: 100%;
+    background-color: transparent;
+    padding: 15px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 101;
+}
+
+.flyout .collapsablePanel .menuItem {
+    list-style: none;
+}
+.flyout .collapsablePanel .menuItem li{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    color: #789921;
+    font-weight: bold;
+    padding-right: 40px;
+    text-align: right;
+}
+.flyout .collapsablePanel .menuItem li img {
+    width: 12px;
+    height: 12px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+}

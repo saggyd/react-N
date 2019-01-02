@@ -1,6 +1,22 @@
 .accordion {
     width: 100%;
     float: left;
+    position: relative;
+}
+.accordion .action-button {
+    position: absolute;
+    right: 9px;
+    top: 38px;
+    width: auto;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 10px;
+    min-width: 100px;
+    text-align: center;
+    z-index: 15;
+}
+.accordion .action-button:hover {
+    opacity: 1;
 }
 .accordion button {
     width: 100%;
@@ -11,6 +27,7 @@
     text-transform: uppercase;
     font-size: 18px;
     color: #789921;
+    opacity: 0.6;
 }
 .accordion button img {
     margin-right: 10px;
@@ -23,4 +40,11 @@
     margin-left: 41px;
     border-radius: 0;
     border: none;
+    margin-top: -39px;
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+.form-group label {
+    color: #789921;
+    font-size: 12px;
 }
