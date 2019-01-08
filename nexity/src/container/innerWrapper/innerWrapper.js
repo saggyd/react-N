@@ -7,7 +7,7 @@ const InnerWrapper = (props) => {
         height: window.innerHeight - 102
     };
     return (
-        <Grid className="inner-wrapper" style = {panelHeight}>
+        <Grid className="inner-wrapper" id="innerWrapper" style = {panelHeight}>
           <Row className="show-grid">
             {props.children}
           </Row>

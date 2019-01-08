@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 
 import PageBanner from '../../pageBanner/pageBanner';
-import FieldGroup from '../../formGroup/formGroup';
 import downArrow from '../../../assets/images/downArrow.png';
 import upArrow from '../../../assets/images/upArrow.png';
 import './candid1.css';
 
-import {Col, code, Button, Panel, Row, FormGroup, ControlLabel, FormControl} from 'react-bootstrap';
+import {Col, Button, Panel, Row, FormGroup, ControlLabel, FormControl} from 'react-bootstrap';
 
 class Candid1 extends Component {
 
