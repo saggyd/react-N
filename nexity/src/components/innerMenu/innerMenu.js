@@ -10,14 +10,16 @@ class InnerMenu extends Component {
             activatedKey: 1
         }
     }
-    handleSelect = (selectedKey) => {
+    handleSelect(selectedKey, event) {
+        console.log(event);
+        event.preventDefault();
         this.setState({activatedKey: selectedKey})
     }
 
     render() {
         return (
             <div className="inner-menu">
-                <Nav bsStyle="pills" activeKey={this.state.activatedKey} onSelect={this.handleSelect}>
+                <Nav bsStyle="pills" activeKey={this.state.activatedKey} onSelect={k => this.handleSelect(k)}>
                     <NavItem eventKey={1} href={this.props.routerArr[0]}>
                         NavItem 1 content
                     </NavItem>
